@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.14)
+project(apue C)
+set(CMAKE_C_STANDARD 99)
+
+add_executable(hello hello.c)
+add_executable(temperature temperature.c)
+add_executable(constant constant.c)
+add_executable(char char.c)
+add_executable(func func.c)
+add_executable(type type.c)
+add_executable(test test.c)
+add_executable(apue apue_file_demo.c)
+add_executable(pathconfDemo pathconfDemo.c)
